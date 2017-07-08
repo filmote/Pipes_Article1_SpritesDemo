@@ -56,11 +56,13 @@ void loop() {
     if (x==0) fwd = true;
   }
 
-//  sprites.drawOverwrite(x,  24, ball, 0);
-//  sprites.drawErase(x,  24, ball, 0);
-  sprites.drawSelfMasked(x,  24, ball, 0);
-//  sprites.drawPlusMask(x,  24, ball_plusMask, 0);
-//  sprites.drawExternalMask(x,  24, ball, ball_externalMask, 0, 0);
+  
+
+  sprites.drawOverwrite(x,  24, ball, 0);
+//sprites.drawErase(x,  24, ball, 0);
+//sprites.drawSelfMasked(x,  24, ball, 0);
+//sprites.drawPlusMask(x,  24, ball_plusMask, 0);
+//sprites.drawExternalMask(x,  24, ball, ball_externalMask, 0, 0);
   arduboy.display();
 
 }
